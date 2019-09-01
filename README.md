@@ -1,8 +1,9 @@
 # CodingExercisesDay074
-# Digital root
+# Digital root - Java code based on the method 2.
 
 - A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
 
+ - METHOD 1
 - Steps:
 
 1.Find out all the digits of a number
@@ -26,4 +27,3 @@ Steps:
 Sum of digits = 6 + 5 + 7 + 8 + 5 + 4 + 1 + 2 = 38
 Since 38 is not multiple of 9, digital root is 38 % 9 = 2.
 
-- Java code based on the method 2.
